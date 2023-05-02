@@ -1,0 +1,169 @@
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+
+html{
+    background-color: #6B8F71;
+    /* margin: 0;
+    padding: 0;
+    height: 0; */
+}
+
+
+/* This is css for index.html */
+.page1text {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    color: #F48669;
+    font-family: "abril-fatface", serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin-top: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.page1text:hover{
+   color: #432818 
+}
+.landingpage:hover{
+    border-style: solid;
+    border-color: #EAD637;
+    padding-bottom: 100%;
+}
+.index{
+    overflow: hidden;
+}
+
+.ptext1{
+    display: flex;
+    align-self: flex-start;
+}
+.ptext3{
+    display: flex;
+    align-self: flex-end;
+}
+
+/*This is css for the home.html */
+header{
+    padding: 10px 15px;
+    border-style: ridge; 
+    border-color: #EAD637;
+    border-width: 3px;
+    border-radius: 10px;
+    background-color: #432818;
+    display: flex;
+    justify-content: space-between;
+}
+
+.instaheader{
+    display: flex;
+    align-self: center;
+    color: #EAD637;
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    margin-right: 15px;
+}
+.instaheader:hover{
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button-container{
+   width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button2{
+       background-color: #DD614A;
+    border: 4px solid #EAD637;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    margin-right: 10px;
+}
+.button3{
+       background-color: #DD614A;
+     border: 4px solid #EAD637;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+.button1{
+    background-color: #DD614A;
+         border: 4px solid #EAD637;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
+.button4{
+    background-color: #DD614A;
+    border: 4px solid #EAD637;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #432818;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.Navigation{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    
+}
+.Navigation > * {
+  margin: 30px;
+color: #DD614A;
+;
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+/* about page css  */
+.Tamaraimage{
+    display: flex; 
+    align-content: center;
+    justify-content: center;
+}
+
+.navigation{
+    color: #EAD637;
+}
